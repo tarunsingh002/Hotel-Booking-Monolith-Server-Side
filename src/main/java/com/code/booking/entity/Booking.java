@@ -25,11 +25,11 @@ public class Booking {
 
     private int roomsQuantity;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "hotelId",referencedColumnName = "hotelId")
     private Hotel hotel;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "userId",referencedColumnName = "userId")
     private User user;
 }

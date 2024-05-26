@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class BookingDto {
-    private int hotelId;
+    private Hotel hotel;
     private int roomsQuantity;
     private long fromDate;
     private long toDate;

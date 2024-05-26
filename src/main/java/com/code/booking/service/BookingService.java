@@ -23,7 +23,7 @@ public class BookingService {
         Booking booking = new Booking();
         booking.setUser(user);
         booking.setCreatedDate(System.currentTimeMillis());
-        booking.setHotel(hotelService.getHotelById(bookingDto.getHotelId()));
+        booking.setHotel(bookingDto.getHotel());
         booking.setFromDate(bookingDto.getFromDate());
         booking.setToDate(bookingDto.getToDate());
         booking.setRoomsQuantity(bookingDto.getRoomsQuantity());
