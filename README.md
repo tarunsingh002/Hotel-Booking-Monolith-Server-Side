@@ -8,3 +8,7 @@ email: user@gmail.com
 password: user1234
 
 The payment details of the user will be autofilled on the Checkout Page, just press the pay button to complete the purchase and look at all the orders on the Orders Page
+
+## Angular Front End Github Link
+
+https://github.com/tarunsingh002/hotel-booking-system-frontend
