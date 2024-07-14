@@ -154,5 +154,8 @@ public class HotelService {
     }
 
 
-
+    public String addHotels(List<Hotel> hotels) {
+        hotels.forEach(h->repository.save(h));
+        return "All hotels added";
+    }
 }

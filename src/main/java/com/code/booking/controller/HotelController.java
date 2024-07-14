@@ -57,6 +57,11 @@ public class HotelController {
         return service.deleteHotelById(id);
     }
 
+    @PostMapping("api/v1/admin/addHotel")
+    public String addHotels(@RequestBody List<Hotel> hotels){
+        return service.addHotels(hotels);
+    }
+
 
 
 }

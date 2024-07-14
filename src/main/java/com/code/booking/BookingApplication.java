@@ -22,6 +22,14 @@ public class BookingApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
+//		if (!userService.adminExists()) {
+//			User user = new User();
+//			user.setEmail("******@**");
+//			user.setRole(Role.Admin);
+//			user.setPassword(new BCryptPasswordEncoder().encode("******"));
+//			userService.addUser(user);
+//
+//		}
 
 	}
 }
